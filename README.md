@@ -7,7 +7,7 @@ we performed log transformation on declared value because it can be right scewed
 #"Model results (regression)".
 Baseline R2 is -0.0212 which is close to zero, it represents that if we assign all the predicted values to mean of target variable than its r2 is 0.
 
-best model on validation is linear regression rabked 1 with Lowest RMSE 4.8912hours.
+best model on validation is linear regression ranked 1 with Lowest RMSE 4.8912hours.
 depths 1 and 2 are high biased have high RMSE on training as well as validataion prediction and depts unlimited, 12, 8 are high variance as difference between training prediction RMSE and validation prediction RMSE is larger predictining good on training but failing to predictt unknown data, memorising data
 learning rate 0.1 is best 0.01 is too slow to reaching to the right value of prediction and 1 is overshooting is keep misses the point and reacheds to other side of graph
 I will ship linear regression in that case because it has good and comparable score with the grandientboodting and it is fast enogh so the gape between scores is so small can be ignored 
